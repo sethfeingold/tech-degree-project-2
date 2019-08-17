@@ -1,0 +1,179 @@
+/* Universal styles */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Font Styles */
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Container Styling */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Main-Header Styling */
+
+.main-header {
+    text-align: center;
+}
+
+/* Main-Nav Styling */
+
+.main-nav ul {
+    padding-inline-start: 0;
+    display: block;
+}
+
+.main-nav {
+    text-align: center;
+    width: 100%;
+}
+
+.main-nav li {
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+/* Link Styling */
+
+a:hover {
+    color: rgb(221, 108, 255);
+    transition-duration: 0.2s;
+    
+}
+
+/* Figure and Profile-Image Styling */
+
+#student-profile {
+    text-align: center;
+    clear: both;
+}
+
+.profile-image {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 367px;
+}
+
+/* Portfolio Section Styling */
+
+.portfolio {
+    margin-top: 3em;
+    text-align: center;
+    margin-bottom: 5em;
+    
+}
+
+.project {
+    text-align: center;
+    margin-top: 3em;
+    
+}
+
+.project-icon {
+    width: 100%;
+}
+
+/* Contact Styling Section */
+
+#contact {
+    text-align: center;
+    margin-bottom: 20px;
+   
+    width: 100%;
+    clear: both;
+}
+
+
+/* Footer Styling Section */
+
+
+
+footer {
+    width: 100%;    
+    clear: both;
+}
+
+.footer-name {
+    float: left;
+}
+
+.back-to-top {
+   
+   float: right;
+}
+
+
+/* Media Queries */
+
+
+@media (min-width: 769px) {
+
+    /* #student-profile {
+        clear: both;
+    }
+
+    #profile-paragraph {
+        float: left;
+    }
+
+    .profile-image {
+        float: right;
+    }
+
+    .project {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+        display: inline-block;
+    }
+    
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    } */
+
+    .container {
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/* Clearfix */
+ 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
