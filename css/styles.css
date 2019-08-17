@@ -167,19 +167,21 @@ footer {
         margin: 0 auto;
     }
 
+    
+
     .main-heading {
         float: left;
     }
     
     .main-nav {
         float:right;
+        
     }
 
     .main-nav li {
         display: inline-block;
-        padding: 5px 10px;
-        border-radius: 5px;
-        float:left;
+        margin-left: 10px;
+        padding: 10px 15px;
     }
 }
 
