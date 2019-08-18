@@ -141,7 +141,7 @@ footer {
 /* Media Queries */
 
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
     .container {
         width: 70%;
@@ -205,13 +205,13 @@ footer {
     }
 
     .footer-nav {
-        display: inline;
+        display: inline-block;
         float: right;
     }
 
     .footer-nav ul li {
        display: inline;
-       margin-right: 10px;
+       margin-right: 25px;
     }
 
     .footer-name {
