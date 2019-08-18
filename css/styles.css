@@ -43,7 +43,6 @@ a {
 
 .main-nav ul {
     padding-inline-start: 0;
-    display: block;
 }
 
 .main-nav {
@@ -75,9 +74,14 @@ a:hover {
 }
 
 .profile-image {
-    margin-top: 40px;
-    margin-bottom: 10px;
+    
     width: 367px;
+    display: block;
+    margin: 40px auto 40px;
+}
+
+.profile-paragraph {
+    margin: 0 auto;
 }
 
 /* Portfolio Section Styling */
@@ -97,6 +101,7 @@ a:hover {
 
 .project-icon {
     width: 100%;
+    text-align: center;
 }
 
 /* Contact Styling Section */
@@ -128,38 +133,15 @@ footer {
    float: right;
 }
 
+.footer-nav {
+    display: none;
+}
+
 
 /* Media Queries */
 
 
 @media (min-width: 769px) {
-
-    /* #student-profile {
-        clear: both;
-    }
-
-    #profile-paragraph {
-        float: left;
-    }
-
-    .profile-image {
-        float: right;
-    }
-
-    .project {
-        width: 50%;
-        padding-right: 10px;
-        padding-left: 10px;
-        display: inline-block;
-    }
-    
-    .left {
-        float: left;
-    }
-
-    .right {
-        float: right;
-    } */
 
     .container {
         width: 70%;
@@ -170,28 +152,71 @@ footer {
     
 
     .main-header {
-        outline: 1px solid black;
         width: 100%;
-    }
+       
+    } 
     
     .main-heading {
-       
-        float: left;
-       
-
+        padding-bottom: 20px;
     }
 
     .main-nav {
-        float: right;
         width: 350px;
+        margin-top: 20px;
     }
 
     .main-nav li {
-        display: inline-block;
+        display: inline;
         padding-left: 20px;
         padding-right: 20px;
         margin-right: 10px;
+        background: white;
+    }
 
+
+    .profile-image {
+        float: right;
+        padding-left: 10px;
+        width: 250px;
+        
+    }
+
+    .profile-paragraph {
+       width: 50%;
+       float: left;
+       padding-right: 10px;
+       margin-top:50px;
+       text-align: left;
+    }
+
+    .project {
+        width: 50%;
+        float: left;
+        padding-left: 20px;
+        
+    }
+    .portfolio p {
+        width: 80%;
+        margin: 5px auto 30px auto;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .footer-nav {
+        display: inline;
+        float: right;
+    }
+
+    .footer-nav ul li {
+       display: inline;
+       margin-right: 10px;
+    }
+
+    .footer-name {
+        display: inline;
+        margin-top: 10px;
     }
 }
 
