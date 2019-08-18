@@ -177,7 +177,8 @@ footer {
         float: right;
         padding-left: 10px;
         width: 50%;
-        max-width: 400px;
+        max-width: 500px;
+        padding-right: 10%;
         
     }
 
