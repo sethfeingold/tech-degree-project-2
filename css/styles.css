@@ -82,6 +82,7 @@ a:hover {
 
 .profile-paragraph {
     margin: 0 auto;
+    text-align: left;
 }
 
 /* Portfolio Section Styling */
@@ -93,11 +94,6 @@ a:hover {
     
 }
 
-.project {
-    /* text-align: center;
-    margin-top: 3em; */
-}
-
 .project-icon {
     display: block;
     width: 85%;
@@ -106,7 +102,7 @@ a:hover {
 
 .portfolio p {
     width: 80%;
-    margin: 5px auto 30px auto;
+    margin: 5px auto 10px auto;
 }
 
 /* Contact Styling Section */
@@ -114,7 +110,6 @@ a:hover {
 #contact {
     text-align: center;
     margin-bottom: 20px;
-   
     width: 100%;
     clear: both;
 }
@@ -230,7 +225,6 @@ footer {
         margin: 0 auto;
         padding: 0;
         max-width: none;
-        
     }
 
     .main-nav {
