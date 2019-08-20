@@ -46,7 +46,6 @@ a {
 }
 
 .main-nav {
-    width: 90%;
     text-align: center;
     margin: 0 auto;
 }
@@ -113,6 +112,15 @@ a:hover {
     margin: 5px auto 10px auto;
 }
 
+
+/* Skills Styling Section */
+
+#skills {
+    text-align: center;
+    border: 2px solid black;
+}
+
+
 /* Contact Styling Section */
 
 #contact {
@@ -168,7 +176,7 @@ footer {
     }
 
     .main-nav {
-        width: 350px;
+        
         margin-top: 20px;
     }
 
