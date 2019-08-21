@@ -118,6 +118,16 @@ a:hover {
 #skills {
     text-align: center;
     border: 2px solid black;
+    box-shadow: 8px 8px 10px rgb(175, 175, 175);
+}
+
+.skills-icon {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.skill-title {
+    margin: 0 auto 40px;
 }
 
 
@@ -128,6 +138,7 @@ a:hover {
     margin-bottom: 20px;
     width: 100%;
     clear: both;
+    margin-top: 75px;
 }
 
 
@@ -219,6 +230,18 @@ footer {
         display: none;
     }
 
+    #skills {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skill-wrapper {
+        float: left;
+        width: 33%;
+        margin-top: 25px;
+    }
+    
+
     .footer-nav {
         display: inline-block;
         float: right;
@@ -261,6 +284,11 @@ footer {
     .profile-paragraph {
         width: 40%;
         margin-left: 10%;
+    }
+    
+    #skills {
+        max-width: 60%;
+        margin: 0 auto;
     }
 } 
 
