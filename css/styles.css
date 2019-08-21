@@ -57,6 +57,10 @@ a {
     border-radius: 8px;
 }
 
+#full-nav {
+    display: none;
+}
+
 /* Link Styling */
 
 a:hover {
@@ -176,8 +180,6 @@ footer {
         margin: 0 auto;
     }
 
-    
-
     .main-header {
         width: 100%;
     } 
@@ -198,6 +200,13 @@ footer {
         background: white;
     }
 
+    #mobile-nav {
+        display: none;
+    }
+
+    #full-nav {
+        display: inline;
+    }
 
     .profile-image {
         float: right;
@@ -268,6 +277,7 @@ footer {
 
     .main-nav {
         float: right;
+        margin-top: 35px;
     }
 
     .main-heading {
